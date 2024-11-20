@@ -4,11 +4,10 @@ Ce relai MACC3R1 n'étant plus fabriqué, il est possible de proposer une altern
 
 ## Fonctionnalités du programme
 
-Le programme existe en deux variantes : 
-- relai de redémarrage temporisé (25 min)
-- relai de redémarrage temporisé (25 min), activation du relai 5 minutes après la mise sous tension initiale
-
-La seconde variante suppose que la PAC ne peut pas démarrer dans les 5 minutes qui suivent sa remise sous tension. C'est pour éviter le pic de courant après une coupure gérénale et laisse au réseau le temps de se stabiliser avant de lancer la PAC.
+Il existe 3 temporisations :
+- Premier démarrage du contrôleur : eviter que la PAC démarre juste après la remise sous tension générale (coupure EDF)
+- Temporisation de redémarrage (fonction initiale du relai)
+- Temporisation avant chaque démarrage (existe pour certaines variantes)
 
 Via un écran virtuel (application iPhone et Android), il est possibile de visualiser 
 - Etat du relai
@@ -19,7 +18,7 @@ Via un écran virtuel (application iPhone et Android), il est possibile de visua
 
 ## Diagramme de fonctionnement
 
-![Diagramme de fonctionnement](./res/MACC3-Diagramme.drawio.png)
+![Diagramme de fonctionnement](./res/MACC3R1_Diagramme_u.drawio.png)
 
 ## Schéma de cablâge
 
@@ -38,6 +37,12 @@ Pour charger le programme il est nécessaire d'avoir
 - Le logiciel [Crouzet Soft](https://www.crouzet.com/softwares/download) gratuit
 - Le programme (fichier *.pcs) de ce dépôt
 
+Personnalisation des timers
+- Bloc B45 : temporisation de premier démarrage, exprimé en secondes
+- Bloc B24 : temporisation de redémarrage, exprimé en heures, minutes, secondes
+- Bloc B60 : temporisation avant chaque démarrage, exprimé en dixième de secondes
+Voir le [PDF](./res/Slim_Timer_ACC3_Universel.pdf), page 2, pour le détail des blocs si besoin
+
 Chargement  
 - Ouvrir le programme depuis Crouzet Soft
 - Sans le menu contrôleur> connexion sélectionnez Bluetooth
@@ -48,8 +53,9 @@ Vous pouvez simuler le programme avant de vous lancer.
 
 ## Modification du programme
 
-A votre convenance, pour modifier les temporisations.  
+A votre convenance, pour modifier toutes les temporisations.  
 Une évolution possible est de remplacer le thermostat puisque les entrées restantes peuvent accueillir une sonde de température.  
+Créer un écran de configuration des timers
 Vous avez la main ...
 
 

@@ -42,6 +42,9 @@ Chargement
 - Ouvrir le programme depuis Crouzet Soft
 - Sans le menu contrôleur> connexion sélectionnez Bluetooth
 - Sélectionner votre Millenuim Slim dans la fenêtre de configuration
+- Injecter le programme via le bouton d'écriture
+
+Vous pouvez simuler le programme avant de vous lancer.
 
 ## Modification du programme
 

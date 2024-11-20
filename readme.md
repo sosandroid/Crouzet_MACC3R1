@@ -19,7 +19,10 @@ Via un écran virtuel (application iPhone et Android), il est possibile de visua
 ## Diagramme de fonctionnement
 
 ![Diagramme de fonctionnement](./res/MACC3R1_Diagramme_u.drawio.png)
-
+- T1: délai au premier démarrage
+- T2: délai à chaque démarrage
+- T3: temporisation de redémarrage
+  
 ## Schéma de cablâge
 
 ![cablage](./res/MACC3-Cablage.drawio.png)
@@ -32,18 +35,19 @@ Via l'[écran virtuel Crouzet](https://www.crouzet.com/produits/controleurs-auto
 
 ## Chargement du programme
 
-Pour charger le programme il est nécessaire d'avoir 
+__Pour charger le programme il est nécessaire d'avoir__
 - Un millenium SLim 230V alimenté
 - Le logiciel [Crouzet Soft](https://www.crouzet.com/softwares/download) gratuit
 - Le programme (fichier *.pcs) de ce dépôt
 
-Personnalisation des timers
-- Bloc B45 : temporisation de premier démarrage, exprimé en secondes
-- Bloc B24 : temporisation de redémarrage, exprimé en heures, minutes, secondes
-- Bloc B60 : temporisation avant chaque démarrage, exprimé en dixième de secondes
+__Personnalisation des timers__
+- T1: Bloc B45 : temporisation de premier démarrage, exprimé en secondes
+- T3: Bloc B24 : temporisation de redémarrage, exprimé en heures, minutes, secondes
+- T2: Bloc B60 : temporisation avant chaque démarrage, exprimé en dixième de secondes
+
 Voir le [PDF](./res/Slim_Timer_ACC3_Universel.pdf), page 2, pour le détail des blocs si besoin
 
-Chargement  
+__Chargement__ 
 - Ouvrir le programme depuis Crouzet Soft
 - Sans le menu contrôleur> connexion sélectionnez Bluetooth
 - Sélectionner votre Millenuim Slim dans la fenêtre de configuration

@@ -35,7 +35,7 @@ Via l'[écran virtuel Crouzet](https://www.crouzet.com/produits/controleurs-auto
 
 Pour charger le programme il est nécessaire d'avoir 
 - Un millenium SLim 230V alimenté
-- Le logiciel Crouzet Soft
+- Le logiciel [Crouzet Soft](https://www.crouzet.com/softwares/download) gratuit
 - Le programme (fichier *.pcs) de ce dépôt
 
 Chargement  

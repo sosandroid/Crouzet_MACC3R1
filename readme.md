@@ -1,8 +1,8 @@
 # Relai temporisé MACC3R1 Crouzet
 
 Ce relai MACC3R1 n'étant plus fabriqué, il est possible de proposer une alternative à base de petit automate. Il est utilisé pour les PAC (Pompes à Chaleur). Le Crouzet [Millenium Slim](https://soda.crouzet.com/pn/?i=88983903) est parfait pour cela. Le relai MACC3R1 existe en plusieurs versions : 
-- Délai de redémarrage de 25 minutes
-- Délai de redémarrage de 5 minutes avec délai de 3 secondes à chaque démarrage
+- MACC3R1 SP 05039 - 88826867 - Délai de redémarrage de 25 minutes
+- MACC3R1 SP 08001 - 88826890 - Délai de redémarrage de 3 minutes avec délai de 5 secondes à chaque démarrage
 
 Toutes ces versions peuvent être gérées par le Millenium Slim et une personnalisation du programme
 

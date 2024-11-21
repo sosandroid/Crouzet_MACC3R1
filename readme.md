@@ -1,6 +1,8 @@
 # Relai temporisé MACC3R1 Crouzet
 
-Ce relai MACC3R1 n'étant plus fabriqué, il est possible de proposer une alternative à base de petit automate. Il est utilisé pour les PAC (Pompes à Chaleur). Le Crouzet [Millenium Slim](https://soda.crouzet.com/pn/?i=88983903) est parfait pour cela. 
+Ce relai MACC3R1 n'étant plus fabriqué, il est possible de proposer une alternative à base de petit automate. Il est utilisé pour les PAC (Pompes à Chaleur). Le Crouzet [Millenium Slim](https://soda.crouzet.com/pn/?i=88983903) est parfait pour cela. Il en plusieurs versions : 
+- Délai de redémarrage de 25 minutes
+- Délai de redémarrage de 5 minutes avec délai de 3 secondes à chaque démarrage
 
 ## Fonctionnalités du programme
 
@@ -41,7 +43,7 @@ __Pour charger le programme il est nécessaire d'avoir__
 - Le programme (fichier *.pcs) de ce dépôt
 
 __Personnalisation des timers__  
-- T1: Bloc B45 : temporisation de premier démarrage, exprimé en secondes
+- T1: Bloc B61 : temporisation de premier démarrage, exprimé en secondes
 - T3: Bloc B24 : temporisation de redémarrage, exprimé en heures, minutes, secondes
 - T2: Bloc B60 : temporisation avant chaque démarrage, exprimé en dixième de secondes
 
@@ -57,7 +59,7 @@ Vous pouvez simuler le programme avant de vous lancer.
 
 ## Modification du programme
 
-Modificatrion des temporisations à votre convenance (c'est nécessaire).    
+Modification des temporisations à votre convenance (c'est nécessaire).    
 Créer un écran de configuration des timers.  
 Une évolution possible est de remplacer le thermostat puisque les entrées restantes peuvent accueillir une sonde de température.  
 Toute autre modification...  

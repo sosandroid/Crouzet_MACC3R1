@@ -41,7 +41,7 @@ Via l'[écran virtuel Crouzet](https://www.crouzet.com/produits/controleurs-auto
 
 __Pour charger le programme il est nécessaire d'avoir__  
 - Un millenium SLim 230V alimenté
-- Le logiciel [Crouzet Soft](https://www.crouzet.com/softwares/download) gratuit
+- Le logiciel [Crouzet Soft](https://www.crouzet.com/softwares/download) gratuit - v1.12 ou supérieure
 - Le programme (fichier *.pcs) de ce dépôt
 
 __Personnalisation des timers__  

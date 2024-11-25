@@ -6,36 +6,36 @@ Ce relai MACC3R1 n'étant plus fabriqué, il est possible de proposer une altern
 
 Toutes ces versions peuvent être gérées par le Millenium Slim et une personnalisation du programme
 
-## Fonctionnalités du programme
-
-Il existe 3 temporisations :
-- Premier démarrage du contrôleur : eviter que la PAC démarre juste après la remise sous tension générale (coupure EDF)
-- Temporisation de redémarrage (fonction initiale du relai)
-- Temporisation avant chaque démarrage (existe pour certaines variantes)
-
-Via un écran virtuel (application iPhone et Android), il est possibile de visualiser 
-- Etat du relai
-- Etat de l'entrée du thermostat
-- Compte à rebours
-- Mise à zéro du compte à rebours - bouton A
-- Relancer le délai à la mise sous tension - bouton B
-
 ## Diagramme de fonctionnement
 
 ![Diagramme de fonctionnement](./res/MACC3R1_Diagramme_u.drawio.png)
 - T1: délai au premier démarrage
 - T2: délai à chaque démarrage
 - T3: temporisation de redémarrage
+
+## Fonctionnalités du programme
+
+### Version avec écran
+
+Disponible avec le fichier pcs. Cette version propose un seul timer modifiable au moment de la programmation et un usage de l'écran virtuel
+
+Les 3 temporisations :
+- Premier démarrage du contrôleur : eviter que la PAC démarre juste après la remise sous tension générale (coupure EDF)
+- Temporisation de redémarrage (fonction initiale du relai)
+- Temporisation avant chaque démarrage (existe pour certaines variantes)
+
+Via un [écran virtuel Crouzet](https://www.crouzet.com/produits/controleurs-automatisme/software/crouzet-virtual-display/) (application iPhone et Android), il est possibile de visualiser 
+- Etat du relai
+- Etat de l'entrée du thermostat
+- Compte à rebours
+- Mise à zéro du compte à rebours - bouton A
+- Relancer le délai à la mise sous tension - bouton B
+
+![ecran](./res/ecran.png)
   
 ## Schéma de cablâge
 
 ![cablage](./res/MACC3-Cablage.drawio.png)
-
-## Vue de l'écran
-
-Via l'[écran virtuel Crouzet](https://www.crouzet.com/produits/controleurs-automatisme/software/crouzet-virtual-display/)  
-
-![ecran](./res/ecran.png)
 
 ## Chargement du programme
 

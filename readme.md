@@ -17,7 +17,7 @@ Toutes ces versions peuvent être gérées par le Millenium Slim et une personna
 
 ### Version avec écran
 
-Disponible avec le fichier pcs. Cette version propose un seul timer modifiable au moment de la programmation et un usage de l'écran virtuel
+Disponible avec le fichier `Slim_Timer_ACC3_SPxxxxx_ecran.pcs`. Cette version propose un seul timer modifiable au moment de la programmation et l'usage de l'écran virtuel
 
 Les 3 temporisations :
 - Premier démarrage du contrôleur : eviter que la PAC démarre juste après la remise sous tension générale (coupure EDF)
@@ -72,7 +72,7 @@ Normalement pas besoin de personnalisation qui se fait par le choix de l'entrée
 ### Chargement
 
 - Ouvrir le programme depuis Crouzet Soft
-- Sans le menu contrôleur> connexion sélectionnez Bluetooth
+- Dans le menu contrôleur > connexion sélectionnez Bluetooth
 - Sélectionner votre Millenuim Slim dans la fenêtre de configuration
 - Lancez la simulation si nécessaire
 - Injecter le programme via le bouton d'écriture

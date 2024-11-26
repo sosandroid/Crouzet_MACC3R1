@@ -1,10 +1,11 @@
 # Relai temporisé MACC3R1 Crouzet
 
-Ce relai MACC3R1 n'étant plus fabriqué, il est possible de proposer une alternative à base de petit automate. Il est utilisé pour les PAC (Pompes à Chaleur). Le Crouzet [Millenium Slim](https://soda.crouzet.com/pn/?i=88983903) est parfait pour cela. Le relai MACC3R1 existe en plusieurs versions : 
+Ce relai MACC3R1 n'étant plus fabriqué, il est possible de proposer une alternative à base de petit automate. Il est utilisé pour les PAC (Pompes à Chaleur). Le relai MACC3R1 existe en plusieurs versions : 
 - MACC3R1 SP 05039 - 88826867 - Délai de redémarrage de 25 minutes
 - MACC3R1 SP 08001 - 88826890 - Délai de redémarrage de 3 minutes avec délai de 5 secondes à chaque démarrage
 
-Toutes ces versions peuvent être gérées par le Millenium Slim et une personnalisation du programme
+Il est utilisé dans les PAC Sofath par exemple.  
+Toutes ces versions peuvent être gérées par l'automate Crouzet [Millenium Slim](https://soda.crouzet.com/pn/?i=88983903).
 
 ## Diagramme de fonctionnement
 
@@ -80,9 +81,9 @@ Normalement pas besoin de personnalisation, qui se fait par le choix de l'entré
 
 ## Modification du programme
 
-Tout est modifiable selon votre besoin 
+Tout est modifiable selon votre besoin.  
 Créer un écran de configuration des timers.  
-Une évolution possible est de remplacer le thermostat puisque les entrées restantes peuvent accueillir une sonde de température.  
+Une évolution possible est de remplacer le thermostat puisque les entrées restantes peuvent accueillir une sonde de température (version avec écran).  
 Toute autre modification...  
 
 Le programme fonctionne aussi sur les autres automates Crouzet, c'est le même logiciel de programmation.

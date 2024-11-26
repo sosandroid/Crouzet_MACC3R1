@@ -10,7 +10,7 @@ Toutes ces versions peuvent être gérées par l'automate Crouzet [Millenium Sli
 ## Diagramme de fonctionnement
 
 ![Diagramme de fonctionnement](./res/MACC3R1_Diagramme_u.drawio.png)
-- T1: délai au premier démarrage
+- T1: délai au premier démarrage (gestion de coupure EDF)
 - T2: délai à chaque démarrage
 - T3: temporisation de redémarrage
 

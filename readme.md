@@ -35,7 +35,7 @@ Via un [écran virtuel Crouzet](https://www.crouzet.com/produits/controleurs-aut
 
 ### Version 4 timers sans écran
 
-Cette version propose 4 variations du timer (1 par entrée / sortie) pour ce que soit adaptable sans modification du programme. Les 4 timers fonctionnenent en parallèle. Disponible avec le fichier `Slim_Timer_ACC3_SPxxxxx_4timers.pcs`. Les différentss modes sont accessible selon le tableau ci-dessous:
+Cette version propose 4 variations du timer (1 par entrée / sortie) pour ce que soit adaptable sans modification du programme. Les 4 timers fonctionnenent en parallèle. Disponible avec le fichier `Slim_Timer_ACC3_SPxxxxx_4timers.pcs`. Les différents modes sont accessibles selon le tableau ci-dessous:
 
 | Mode                  | Entrée | Sortie |  T1 | T2 |   T3  |
 |-----------------------|:------:|:------:|:---:|:--:|:-----:|
@@ -53,7 +53,7 @@ Cette version propose 4 variations du timer (1 par entrée / sortie) pour ce que
 ### Pour charger le programme il est nécessaire d'avoir
 - Un millenium SLim 230V alimenté
 - Le logiciel [Crouzet Soft](https://www.crouzet.com/softwares/download) gratuit - v1.12 ou supérieure
-- Le programme, fichier *.pcs de ce dépôt choisi
+- Le programme, fichier *.pcs choisi
 
 ### Personnalisation des timers
 
@@ -67,7 +67,7 @@ Voir le [PDF](./res/Slim_Timer_ACC3_Universel.pdf), page 2, pour le détail des 
 
 __Version sans écran__
 
-Normalement pas besoin de personnalisation qui se fait par le choix de l'entrée / sortie utilisée.
+Normalement pas besoin de personnalisation, qui se fait par le choix de l'entrée / sortie utilisée.
 
 ### Chargement
 

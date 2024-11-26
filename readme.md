@@ -18,12 +18,7 @@ Toutes ces versions peuvent être gérées par l'automate Crouzet [Millenium Sli
 
 ### Version avec écran
 
-Disponible avec le fichier `Slim_Timer_ACC3_SPxxxxx_ecran.pcs`. Cette version propose un seul timer modifiable au moment de la programmation et l'usage de l'écran virtuel
-
-Les 3 temporisations :
-- Premier démarrage du contrôleur : eviter que la PAC démarre juste après la remise sous tension générale (coupure EDF)
-- Temporisation de redémarrage (fonction initiale du relai)
-- Temporisation avant chaque démarrage (existe pour certaines variantes)
+Disponible avec le fichier `Slim_Timer_ACC3_SPxxxxx_ecran.pcs`. Cette version propose un seul timer modifiable au moment de la programmation et l'usage de l'écran virtuel. Le timer proposer la modification des valeurs T1, T2 et T3 dans le programme.
 
 Via un [écran virtuel Crouzet](https://www.crouzet.com/produits/controleurs-automatisme/software/crouzet-virtual-display/) (application iPhone et Android), il est possibile de visualiser 
 - Etat du relai

@@ -32,36 +32,55 @@ Via un [écran virtuel Crouzet](https://www.crouzet.com/produits/controleurs-aut
 - Relancer le délai à la mise sous tension - bouton B
 
 ![ecran](./res/ecran.png)
-  
+
+### Version 4 timers sans écran
+
+Cette version propose 4 variations du timer (1 par entrée / sortie) pour ce que soit adaptable sans modification du programme. Les 4 timers fonctionnenent en parallèle. Disponible avec le fichier `Slim_Timer_ACC3_SPxxxxx_4timers.pcs`. Les différentss modes sont accessible selon le tableau ci-dessous:
+
+| Mode                  | Entrée | Sortie |  T1 | T2 |   T3  |
+|-----------------------|:------:|:------:|:---:|:--:|:-----:|
+| SP08001               |   I1   |   O1   |  0s | 5s |  3min |
+| SP08001 1er démarrage |   I2   |   O2   | 60s | 5s |  3min |
+| SP05039 1er démarrage |   I3   |   O3   | 60s | 0s | 25min |
+| SP05039               |   I4   |   O4   |  0s | 0s | 25min |
+
 ## Schéma de cablâge
 
 ![cablage](./res/MACC3-Cablage.drawio.png)
 
 ## Chargement du programme
 
-__Pour charger le programme il est nécessaire d'avoir__  
+### Pour charger le programme il est nécessaire d'avoir
 - Un millenium SLim 230V alimenté
 - Le logiciel [Crouzet Soft](https://www.crouzet.com/softwares/download) gratuit - v1.12 ou supérieure
-- Le programme (fichier *.pcs) de ce dépôt
+- Le programme, fichier *.pcs de ce dépôt choisi
 
-__Personnalisation des timers__  
+### Personnalisation des timers
+
+__Version avec écran__ 
+
 - T1: Bloc B61 : temporisation de premier démarrage, exprimé en secondes
 - T3: Bloc B24 : temporisation de redémarrage, exprimé en heures, minutes, secondes
 - T2: Bloc B60 : temporisation avant chaque démarrage, exprimé en dixième de secondes
 
 Voir le [PDF](./res/Slim_Timer_ACC3_Universel.pdf), page 2, pour le détail des blocs si besoin
 
-__Chargement__  
+__Version sans écran__
+
+Normalement pas besoin de personnalisation qui se fait par le choix de l'entrée / sortie utilisée.
+
+### Chargement
+
 - Ouvrir le programme depuis Crouzet Soft
 - Sans le menu contrôleur> connexion sélectionnez Bluetooth
 - Sélectionner votre Millenuim Slim dans la fenêtre de configuration
+- Lancez la simulation si nécessaire
 - Injecter le programme via le bouton d'écriture
 
-Vous pouvez simuler le programme avant de vous lancer.
 
 ## Modification du programme
 
-Modification des temporisations à votre convenance (c'est nécessaire).    
+Tout est modifiable selon votre besoin 
 Créer un écran de configuration des timers.  
 Une évolution possible est de remplacer le thermostat puisque les entrées restantes peuvent accueillir une sonde de température.  
 Toute autre modification...  

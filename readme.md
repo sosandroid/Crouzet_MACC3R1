@@ -45,20 +45,6 @@ La version V2 est une refonte plus simple puisqu'elle ne nécessite pas de modif
 - Le logiciel [Crouzet Soft](https://www.crouzet.com/softwares/download) gratuit - v1.12 ou supérieure
 - Le programme, fichier *.pcs
 
-### Personnalisation des timers
-
-__Version avec écran__ 
-
-- T1: Bloc B61 : temporisation de premier démarrage, exprimé en secondes
-- T3: Bloc B24 : temporisation de redémarrage, exprimé en heures, minutes, secondes
-- T2: Bloc B60 : temporisation avant chaque démarrage, exprimé en dixième de secondes
-
-Voir le [PDF](./res/Slim_Timer_ACC3_Universel.pdf), page 2, pour le détail des blocs si besoin
-
-__Version sans écran__
-
-Normalement pas besoin de personnalisation, qui se fait par le choix de l'entrée / sortie utilisée.
-
 ### Chargement
 
 - Ouvrir le programme depuis Crouzet Soft
@@ -71,8 +57,7 @@ Normalement pas besoin de personnalisation, qui se fait par le choix de l'entré
 ## Modification du programme
 
 Tout est modifiable selon votre besoin.  
-Créer un écran de configuration des timers.  
-Une évolution possible est de remplacer le thermostat puisque les entrées restantes peuvent accueillir une sonde de température (version avec écran).  
+Une évolution possible est de remplacer le thermostat puisque les entrées restantes peuvent accueillir une sonde de température.  
 Toute autre modification...  
 
 Le programme fonctionne aussi sur les autres automates Crouzet, c'est le même logiciel de programmation.

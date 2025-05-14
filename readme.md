@@ -36,7 +36,7 @@ La version V2 est une refonte plus simple puisqu'elle ne nécessite pas de modif
 
 ## Schéma de cablâge
 
-![cablage](./res/MACC3-Cablage.drawio.png)
+![cablage](./res/MACC3_cablage.drawio.png)
 
 ## Chargement du programme
 

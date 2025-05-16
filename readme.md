@@ -30,7 +30,7 @@ Cette version du programme permet de gérer l'ensemble des paramètres depuis l'
 - Paramétrage du délai avant le redémarrage T3 (0 - 9h)
 - Paramétrage de l'usage de chaque sortie (gestion des 4 sorties)
 
-La version V2 est une refonte plus simple puisqu'elle ne nécessite pas de modification du programme. Tout se paramètre depuis l'écran.
+La version V2 est une refonte complète du programme. Elle apporte plus de simplicité en proposant tous les paramétrages depuis l'écran virtuel. Plus besoin de modifier le programme. Les versions précédentes sont dans le dossier `old`
 
 ![Ecran](./res/macc3_slim_display_main.png)
 

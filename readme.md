@@ -9,6 +9,8 @@ ACC = Anti Cycle Court
 Il est utilisé dans les PAC Sofath par exemple.  
 Toutes ces versions peuvent être gérées par l'automate Crouzet [Millenium Slim](https://soda.crouzet.com/pn/?i=88983903).
 
+[![Buy me a coffee](./res/default-yellow.png)](https://www.buymeacoffee.com/ju9hJ8RqGk)
+
 ## Diagramme de fonctionnement
 
 ![Diagramme de fonctionnement](./res/MACC3R1_Diagramme_u.drawio.png)
@@ -61,5 +63,6 @@ Une évolution possible est de remplacer le thermostat puisque les entrées rest
 Toute autre modification...  
 
 Le programme fonctionne aussi sur les autres automates Crouzet, c'est le même logiciel de programmation.
+
 
 

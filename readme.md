@@ -14,7 +14,7 @@ Toutes ces versions peuvent être gérées par l'automate Crouzet [Millenium Sli
 ## Diagramme de fonctionnement
 
 ![Diagramme de fonctionnement](./res/MACC3R1_Diagramme_u.drawio.png)
-- T1: délai au premier démarrage (gestion de coupure EDF)
+- T1: délai au premier démarrage (gestion de coupure EDF, éviter que la PAC demande trop de courant au rétablissement de ce courant)
 - T2: délai à chaque démarrage
 - T3: temporisation de redémarrage
 
@@ -43,7 +43,7 @@ La version V2 est une refonte complète du programme. Elle apporte plus de simpl
 ## Chargement du programme
 
 ### Pour charger le programme il est nécessaire d'avoir
-- Un millenium SLim 230V alimenté
+- Un millenium Slim 230V alimenté
 - Le logiciel [Crouzet Soft](https://www.crouzet.com/softwares/download) gratuit - v1.12 ou supérieure
 - Le programme, fichier *.pcs
 
@@ -52,7 +52,9 @@ La version V2 est une refonte complète du programme. Elle apporte plus de simpl
 - Ouvrir le programme depuis Crouzet Soft
 - Dans le menu contrôleur > connexion sélectionnez Bluetooth
 - Sélectionner votre Millenuim Slim dans la fenêtre de configuration
-- Lancez la simulation si nécessaire
+- Commencez par un diagnostic du contrôlleur (contrôleur > Diagnostic du controlleur)
+- Lancez la mise à jour du firmware (contrôleur > Mise à jour du firmware)
+- Lancez la simulation si vous souhaitez vérifier comment fonctionne le programme
 - Injecter le programme via le bouton d'écriture
 
 
@@ -63,6 +65,7 @@ Une évolution possible est de remplacer le thermostat puisque les entrées rest
 Toute autre modification...  
 
 Le programme fonctionne aussi sur les autres automates Crouzet, c'est le même logiciel de programmation.
+
 
 
 
